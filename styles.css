@@ -1,0 +1,103 @@
+body {
+     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif, emoji, EmojiSymbols, Symbola, "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji';
+     margin-top: 60px;
+     margin-bottom: 60px;
+     margin-left: 40px;
+     margin-right: 40px;
+     background: linear-gradient(to right, #000066 0%, #000066 15%, white 15%, white 100%);
+ }
+
+ .details {
+     width: auto;
+     height: 26px;
+     background-color: powderblue;
+     border-style: solid;
+     border-color: #000066;
+     border-width: 2px;
+     display: flex;
+     justify-content: space-around;
+     align-content: center;
+     padding-left: 8px;
+     padding-right: 8px;
+     align-items: center;
+     /* #element1 {padding-left : 5px; float:left;}
+     #element2 {padding-left : 10px;float:left;}
+     #element3 {padding-left : 10px;float:left;}
+     #element4 {padding-left : 10px;float:left;} */
+ }
+
+ .inset{
+     padding-left: 15%;
+ }
+
+ .section_header{
+     padding-left: 15%;
+     display: inline-flex;
+     align-items: center;
+ }
+
+ h1 {
+     font-size: 34px; font-style: normal; font-variant: normal; font-weight: 700; 
+     color: #000066;
+     line-height: 0.5;
+     padding-left: 15%;
+ }
+
+ h2 {
+     font-size: 24px; font-style: normal; font-variant: normal; font-weight: 400; 
+     color: #000066;
+     line-height: 1.0;
+     padding-left: 15%;
+ }
+
+h3 {
+     font-size: 24px; font-style: normal; font-variant: normal; font-weight: 600; 
+     color: #000066;
+     display: inline;
+     padding-left: 3px;
+     vertical-align: middle;
+}
+
+ p {
+     font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; 
+ }
+
+ Table #myTable tr td {
+     border-style: none;
+     width: 100%;
+ }
+
+ Table #myTable tr td:first-child {
+     width: 15%;
+     margin: 0px !important;
+     vertical-align: top;
+ }
+
+ Table #myTable tr td:last-child {
+     width: 85%;
+     margin: 0px !important;
+     padding: 4px 4px 4px 4px;
+     display: inline;
+     vertical-align: top;
+     color: black;
+     height: 25px;
+ }
+
+ .job_title {
+     font-size: 20px; font-weight: 700; text-transform: uppercase;
+     line-height: 0.5;
+ }
+
+ ul.acc { 
+     list-style-type: none;
+     padding-left: 15%;
+ } 
+
+ ul.acc > li:before {
+     content: "🏅";
+     margin-right: 8px;
+ }
+
+ ul.acc > li:hover:before {
+     content: "🥇";
+ }
