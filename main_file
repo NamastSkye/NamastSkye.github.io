@@ -1,0 +1,185 @@
+<!-- author: Matthew J Bresin -->
+ <!doctype html>
+
+ <html lang="en">
+     <head>
+         <title>Matthew Bresin - Web Developer</title>
+         <script src="https://kit.fontawesome.com/9b70120e89.js" crossorigin="anonymous"></script>
+        <!-- the type attribute is not required anymore in HTML5 -->
+         <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+
+    </head>
+    <body>
+        <div>
+            <h1>Matthew Bresin</h1>
+            <h2>Entry Level Developer</h2>
+        </div>
+        <!-- how to get icon and text to stick together? -->
+        <div class="details"> 
+            <i id="element1" class="fa-solid fa-phone"></i> 651 502 3348 
+            <i id="element2" class="fa-solid fa-envelope"></i><a href="mailto:mrbresin@yahoo.com"> mrbresin@yahoo.com </a>
+            <i id="element3" class="fa-solid fa-location-dot"></i> Bloomington, MN 
+            <i id="element4" class="fa-brands fa-github"></i><a href="https://github.com/NamastSkye/resume.git">Github Resources</a>
+        </div>
+        <div class="inset"><br><br>
+            Hardworking and passionate job seeker with strong problem-solving skills eager to secure entry-level developer position in supportive environment. Ready to help team achieve company goals. 
+        </div>
+        <div class="section_header">
+            <br><br><img src="skills.png"><h3>Skills</h3>
+        </div>
+        <div class="inset"; style="text-align:center;">
+            <ul>
+                <li style="display:inline"><strong>HTML &#8226</li>
+                <li style="display:inline">CSS &#8226</li>
+                <li style="display:inline">Python &#8226</li>
+                <li style="display:inline">Korean (advanced) &#8226</li>
+                <li style="display:inline">Mandarin (conversational)</li>
+            </ul>
+            <!-- better to set as one list with some sort of text wrapping? -->
+            <ul>
+                <li style="display:inline">MS Office &#8226</li>
+                <li style="display:inline">PyCharm &#8226</li>
+                <li style="display:inline">Code Evaluation &#8226</li>
+                <li style="display:inline">Troubleshooting</strong></li>
+            </ul>
+        </div>
+        <div class="section_header">
+            <br><br><img src="work_history.png"><h3>Work History</h3>
+        </div>
+        <div>
+            <table id="myTable">
+                <tr>
+                    <td rowspan="2" style="color:white">2021-09 - Current</td>
+                    <td><i style="font-size: 20px; font-weight: 700; text-transform: uppercase; font-style: normal; font-variant: normal; line-height: 0.5;">Lead Recreation Leader</i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul><i>Edina Public Schools, Edina, MN</i>
+                            <li>Planned and evaluated recreation and athletic programs with recreation director to support Kindergarten to 5th grade students and families.</li>
+                            <li>Tracked program supplies, enrollments, and attendance to produce monthly reports for program director.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="color:white">2019-09 - 2021-06</td>
+                    <td><i style="font-size: 20px; font-weight: 700; text-transform: uppercase; font-style: normal; font-variant: normal; line-height: 0.5;">Fourth Grade Teacher</i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul><i>Spring Lake Park School District 16, Spring Lake Park, MN</i>
+                            <li>Reimagined learning to engage diverse students doing online learning.</li>
+                            <li>Collaborated with families, admin, & teachers to meet individual student needs.</li>
+                            <li>Managed individual portfolios of 27 student clients, personalizing work to meet each client's needs.</li>
+                            <li>Created detailed unit curriculum for the digital environment which helped students to meet statewide target through engaging platforms.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="color:white">2017-09 - 2019-07</td>
+                    <td><i style="font-size: 20px; font-weight: 700; text-transform: uppercase; font-style: normal; font-variant: normal; line-height: 0.5;">Community Education Paraprofessional</i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul><i>Inver Grove Heights Schools ISD 199, Inver Grove Heights, MN</i>
+                            <li>Supervised and led activities for Kindergarten – 5th grade students.</li>
+                            <li>Fostered safe environment for children with diverse needs.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="color:white">2015-03 - 2016-07</td>
+                    <td><i style="font-size: 20px; font-weight: 700; text-transform: uppercase; font-style: normal; font-variant: normal; line-height: 0.5;">English Teacher & Supervisor</i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul><i>Wuxi Korean School, Wuxi, Jiangsu, China</i>
+                            <li>Led team of six English teachers from Kindergarten – 11th grade.</li>
+                            <li>Hosted professional development sessions on integrating technology to enhance learning outcomes.</li>
+                            <li>Utilized technology to create a shared drive for teachers to share resources and create digital classrooms for students and families to access learning activities.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="color:white">2013-03 - 2015-02</td>
+                    <td><i style="font-size: 20px; font-weight: 700; text-transform: uppercase; font-style: normal; font-variant: normal; line-height: 0.5;">English Teacher</i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul><i>GEPIK Program - South Korea Public Schools, Guri, Gyeonggi-do, South Korea</i>
+                            <li>Prepared and implemented lesson plans covering required course topics for over 300 students across 4 grades.</li>
+                            <li>Completed in-service and additional training to maintain professional growth.</li>
+                            <li>Consulted with teachers in other disciplines to identify and adopt successful instructional strategies.</li>
+                            <li>Constructed national award-winning summer enrichment course.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="color:white">2009-03 - 2010-02</td>
+                    <td><i style="font-size: 20px; font-weight: 700; text-transform: uppercase; font-style: normal; font-variant: normal; line-height: 0.5;">English Teacher</i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul><i>GEPIK Program - South Korea Public Schools, Gimcheon, Gyeongsanbuk-do, South Korea</i>
+                            <li>Collaborated to create English conversation curriculum and standardized assessments to evaluate student progress.</li>
+                            <li>Coached college entrance interviews.</li>
+                            <li>Helped students develop important learning skills and good study habits useful in future college education or work.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="color:white">2008-01 - 2009-02</td>
+                    <td><i style="font-size: 20px; font-weight: 700; text-transform: uppercase; font-style: normal; font-variant: normal; line-height: 0.5;">Accounts Specialist</i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul><i>US Bank, US Bank Plaza, Minneapolis, MN</i>
+                            <li>Utilized spreadsheets to analyze and track daily finances across over a dozen multimillion dollar accounts.</li>
+                            <li>Completed routine and complex account updates to resolve problems.</li>
+                            <li>Reviewed account activity to assess financial status and evaluate discrepancies.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="section_header">
+            <br><br><img src="education.png"><h3>Education</h3>
+        </div>
+        <div>
+            <table id="myTable">
+                <tr>
+                    <td rowspan="2" style="color:white">2018-05 - 2019-05</td>
+                    <td><i style="font-size: 20px; font-weight: 700; text-transform: uppercase; font-style: normal; font-variant: normal; line-height: 0.5;">Master's of Education - Elementary Education</i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul><i>University of Minnesota - Twin Cities Campus, Minneapolis, MN</i>
+                            <li>Interdisciplinary approach to curriculum development with an emphasis on cultural competencies and tech integration. GPA: 3.9 (4.0 max)</li>
+                            <li>Received Best Friends Scholarship Award.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="color:white">2004-09 - 2007-05</td>
+                    <td><i style="font-size: 20px; font-weight: 700; text-transform: uppercase; font-style: normal; font-variant: normal; line-height: 0.5;">B.A.:Business Administration - Management</i></td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul><i>Augsburg University - Minneapolis, MN</i>
+                            <li>Numerous management, finance, and computer classes serve me to organize graph, and share data. GPA: 3.83 (4.0 max)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="section_header">
+            <br><br><img src="accomplishments.png"><h3>Accomplishments</h3>
+        </div>
+        <div>
+            <ul class="acc">
+                <li>Completed advanced level Korean language coursework at Korea University in Seoul.</li>
+                <li>Passed HSK Level 3 for Mandarin Chinese proficiency.</li>
+                <li>Over 6,000 downloads of PowerPoint, PDF, and other files I created on a popular web site for language teachers.</li>
+            </ul>
+        </div>
+    </body>
+</html>
