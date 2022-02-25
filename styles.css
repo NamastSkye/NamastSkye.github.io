@@ -75,7 +75,7 @@ h3 {
 
  Table #myTable tr td:last-child {
      width: 85%;
-     margin: 0px !important;
+     margin: 20px !important;
      padding: 4px 4px 4px 4px;
      display: inline;
      vertical-align: top;
